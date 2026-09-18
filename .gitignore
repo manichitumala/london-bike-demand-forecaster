@@ -20,3 +20,4 @@ data/processed/models/
 # OS
 .DS_Store
 Thumbs.db
+streamlit.log
