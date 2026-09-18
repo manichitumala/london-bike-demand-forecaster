@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+
+# Raw ingested data and the DuckDB warehouse are bulky and regeneratable —
+# see README for how to rebuild them. The small forecast/report outputs in
+# data/processed/ and reports/ ARE committed: the dashboard (and a
+# Streamlit Cloud deploy) reads them directly without needing the full
+# multi-GB raw pipeline to have run in that environment.
+data/raw/
+data/db/*.duckdb
+data/db/*.duckdb.wal
+data/processed/models/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
