@@ -1,142 +1,142 @@
 [
   {
     "target": "departures",
-    "train_rows": 1647087,
-    "test_rows": 271152,
+    "train_rows": 772644,
+    "test_rows": 270144,
     "test_period": [
       "2026-05-18 01:00:00",
       "2026-06-01 00:00:00"
     ],
     "mae_by_segment": {
       "overall": {
-        "n_rows": 271152,
-        "seasonal_naive_mae": 1.2114,
-        "lightgbm_mae": 1.0157
+        "n_rows": 270144,
+        "seasonal_naive_mae": 1.2159,
+        "lightgbm_mae": 1.0629
       },
       "rain_hours": {
-        "n_rows": 11298,
-        "seasonal_naive_mae": 0.9317,
-        "lightgbm_mae": 0.7679
+        "n_rows": 11256,
+        "seasonal_naive_mae": 0.9351,
+        "lightgbm_mae": 0.8108
       },
       "dry_hours": {
-        "n_rows": 259854,
-        "seasonal_naive_mae": 1.2235,
-        "lightgbm_mae": 1.0265
+        "n_rows": 258888,
+        "seasonal_naive_mae": 1.2281,
+        "lightgbm_mae": 1.0738
       },
       "weekday": {
-        "n_rows": 193680,
-        "seasonal_naive_mae": 1.1945,
-        "lightgbm_mae": 1.0008
+        "n_rows": 192960,
+        "seasonal_naive_mae": 1.199,
+        "lightgbm_mae": 1.0512
       },
       "weekend": {
-        "n_rows": 77472,
-        "seasonal_naive_mae": 1.2535,
-        "lightgbm_mae": 1.053
+        "n_rows": 77184,
+        "seasonal_naive_mae": 1.2582,
+        "lightgbm_mae": 1.0922
       },
       "bank_holiday": {
-        "n_rows": 19368,
-        "seasonal_naive_mae": 1.503,
-        "lightgbm_mae": 1.1054
+        "n_rows": 19296,
+        "seasonal_naive_mae": 1.5086,
+        "lightgbm_mae": 1.2562
       },
       "morning_peak_7_9": {
-        "n_rows": 33894,
-        "seasonal_naive_mae": 1.5654,
-        "lightgbm_mae": 1.2213
+        "n_rows": 33768,
+        "seasonal_naive_mae": 1.5713,
+        "lightgbm_mae": 1.3375
       },
       "evening_peak_17_19": {
-        "n_rows": 33894,
-        "seasonal_naive_mae": 2.1244,
-        "lightgbm_mae": 1.7184
+        "n_rows": 33768,
+        "seasonal_naive_mae": 2.1324,
+        "lightgbm_mae": 1.825
       },
       "overnight_0_5": {
-        "n_rows": 67788,
-        "seasonal_naive_mae": 0.2475,
-        "lightgbm_mae": 0.261
+        "n_rows": 67536,
+        "seasonal_naive_mae": 0.2484,
+        "lightgbm_mae": 0.251
       }
     },
     "feature_importance": {
-      "station_id": 8067,
-      "profile_avg_departures": 4986,
-      "temperature_2m": 2456,
-      "wind_speed_10m": 2190,
-      "relative_humidity_2m": 2181,
-      "lag_168h_departures": 2002,
-      "hour_of_day": 1035,
-      "day_of_week": 770,
-      "is_bank_holiday": 684,
-      "precipitation": 299,
-      "is_weekend": 117,
-      "rain": 13
+      "station_id": 6793,
+      "profile_avg_departures": 5482,
+      "lag_168h_departures": 3015,
+      "temperature_2m": 2814,
+      "wind_speed_10m": 2374,
+      "relative_humidity_2m": 2067,
+      "hour_of_day": 765,
+      "day_of_week": 757,
+      "is_bank_holiday": 364,
+      "precipitation": 231,
+      "is_weekend": 138,
+      "rain": 0
     }
   },
   {
     "target": "arrivals",
-    "train_rows": 1647087,
-    "test_rows": 271152,
+    "train_rows": 772644,
+    "test_rows": 270144,
     "test_period": [
       "2026-05-18 01:00:00",
       "2026-06-01 00:00:00"
     ],
     "mae_by_segment": {
       "overall": {
-        "n_rows": 271152,
-        "seasonal_naive_mae": 1.1923,
-        "lightgbm_mae": 0.9836
+        "n_rows": 270144,
+        "seasonal_naive_mae": 1.1967,
+        "lightgbm_mae": 1.038
       },
       "rain_hours": {
-        "n_rows": 11298,
-        "seasonal_naive_mae": 0.8749,
-        "lightgbm_mae": 0.7162
+        "n_rows": 11256,
+        "seasonal_naive_mae": 0.8782,
+        "lightgbm_mae": 0.7442
       },
       "dry_hours": {
-        "n_rows": 259854,
-        "seasonal_naive_mae": 1.2061,
-        "lightgbm_mae": 0.9952
+        "n_rows": 258888,
+        "seasonal_naive_mae": 1.2106,
+        "lightgbm_mae": 1.0508
       },
       "weekday": {
-        "n_rows": 193680,
-        "seasonal_naive_mae": 1.169,
-        "lightgbm_mae": 0.9643
+        "n_rows": 192960,
+        "seasonal_naive_mae": 1.1733,
+        "lightgbm_mae": 1.0201
       },
       "weekend": {
-        "n_rows": 77472,
-        "seasonal_naive_mae": 1.2505,
-        "lightgbm_mae": 1.032
+        "n_rows": 77184,
+        "seasonal_naive_mae": 1.2552,
+        "lightgbm_mae": 1.0826
       },
       "bank_holiday": {
-        "n_rows": 19368,
-        "seasonal_naive_mae": 1.4844,
-        "lightgbm_mae": 1.0753
+        "n_rows": 19296,
+        "seasonal_naive_mae": 1.4899,
+        "lightgbm_mae": 1.1946
       },
       "morning_peak_7_9": {
-        "n_rows": 33894,
-        "seasonal_naive_mae": 1.4334,
-        "lightgbm_mae": 1.1069
+        "n_rows": 33768,
+        "seasonal_naive_mae": 1.4388,
+        "lightgbm_mae": 1.1945
       },
       "evening_peak_17_19": {
-        "n_rows": 33894,
-        "seasonal_naive_mae": 2.129,
-        "lightgbm_mae": 1.6951
+        "n_rows": 33768,
+        "seasonal_naive_mae": 2.137,
+        "lightgbm_mae": 1.8185
       },
       "overnight_0_5": {
-        "n_rows": 67788,
-        "seasonal_naive_mae": 0.2663,
-        "lightgbm_mae": 0.2705
+        "n_rows": 67536,
+        "seasonal_naive_mae": 0.2673,
+        "lightgbm_mae": 0.2663
       }
     },
     "feature_importance": {
-      "station_id": 8123,
-      "profile_avg_arrivals": 4584,
-      "temperature_2m": 2515,
-      "lag_168h_arrivals": 2284,
-      "relative_humidity_2m": 2240,
-      "wind_speed_10m": 2095,
-      "hour_of_day": 1008,
-      "day_of_week": 893,
-      "is_bank_holiday": 669,
-      "precipitation": 220,
-      "is_weekend": 99,
-      "rain": 70
+      "station_id": 6775,
+      "profile_avg_arrivals": 5614,
+      "lag_168h_arrivals": 2899,
+      "temperature_2m": 2824,
+      "wind_speed_10m": 2256,
+      "relative_humidity_2m": 2070,
+      "hour_of_day": 816,
+      "day_of_week": 801,
+      "is_bank_holiday": 398,
+      "precipitation": 229,
+      "is_weekend": 118,
+      "rain": 0
     }
   }
 ]
