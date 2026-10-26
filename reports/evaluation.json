@@ -11,61 +11,61 @@
       "overall": {
         "n_rows": 270144,
         "seasonal_naive_mae": 1.2159,
-        "lightgbm_mae": 1.0629
+        "lightgbm_mae": 1.0662
       },
       "rain_hours": {
         "n_rows": 11256,
-        "seasonal_naive_mae": 0.9351,
-        "lightgbm_mae": 0.8108
+        "seasonal_naive_mae": 0.7337,
+        "lightgbm_mae": 0.628
       },
       "dry_hours": {
         "n_rows": 258888,
-        "seasonal_naive_mae": 1.2281,
-        "lightgbm_mae": 1.0738
+        "seasonal_naive_mae": 1.2369,
+        "lightgbm_mae": 1.0852
       },
       "weekday": {
         "n_rows": 192960,
         "seasonal_naive_mae": 1.199,
-        "lightgbm_mae": 1.0512
+        "lightgbm_mae": 1.0559
       },
       "weekend": {
         "n_rows": 77184,
         "seasonal_naive_mae": 1.2582,
-        "lightgbm_mae": 1.0922
+        "lightgbm_mae": 1.0919
       },
       "bank_holiday": {
         "n_rows": 19296,
         "seasonal_naive_mae": 1.5086,
-        "lightgbm_mae": 1.2562
+        "lightgbm_mae": 1.2792
       },
       "morning_peak_7_9": {
         "n_rows": 33768,
         "seasonal_naive_mae": 1.5713,
-        "lightgbm_mae": 1.3375
+        "lightgbm_mae": 1.3654
       },
       "evening_peak_17_19": {
         "n_rows": 33768,
         "seasonal_naive_mae": 2.1324,
-        "lightgbm_mae": 1.825
+        "lightgbm_mae": 1.8185
       },
       "overnight_0_5": {
         "n_rows": 67536,
         "seasonal_naive_mae": 0.2484,
-        "lightgbm_mae": 0.251
+        "lightgbm_mae": 0.2446
       }
     },
     "feature_importance": {
-      "station_id": 6793,
-      "profile_avg_departures": 5482,
-      "lag_168h_departures": 3015,
-      "temperature_2m": 2814,
-      "wind_speed_10m": 2374,
-      "relative_humidity_2m": 2067,
-      "hour_of_day": 765,
-      "day_of_week": 757,
-      "is_bank_holiday": 364,
-      "precipitation": 231,
-      "is_weekend": 138,
+      "station_id": 6843,
+      "profile_avg_departures": 5480,
+      "lag_168h_departures": 3070,
+      "temperature_2m": 2655,
+      "wind_speed_10m": 2349,
+      "relative_humidity_2m": 2033,
+      "hour_of_day": 887,
+      "day_of_week": 742,
+      "is_bank_holiday": 357,
+      "precipitation": 255,
+      "is_weekend": 129,
       "rain": 0
     }
   },
@@ -81,61 +81,61 @@
       "overall": {
         "n_rows": 270144,
         "seasonal_naive_mae": 1.1967,
-        "lightgbm_mae": 1.038
+        "lightgbm_mae": 1.042
       },
       "rain_hours": {
         "n_rows": 11256,
-        "seasonal_naive_mae": 0.8782,
-        "lightgbm_mae": 0.7442
+        "seasonal_naive_mae": 0.7119,
+        "lightgbm_mae": 0.6075
       },
       "dry_hours": {
         "n_rows": 258888,
-        "seasonal_naive_mae": 1.2106,
-        "lightgbm_mae": 1.0508
+        "seasonal_naive_mae": 1.2178,
+        "lightgbm_mae": 1.0609
       },
       "weekday": {
         "n_rows": 192960,
         "seasonal_naive_mae": 1.1733,
-        "lightgbm_mae": 1.0201
+        "lightgbm_mae": 1.029
       },
       "weekend": {
         "n_rows": 77184,
         "seasonal_naive_mae": 1.2552,
-        "lightgbm_mae": 1.0826
+        "lightgbm_mae": 1.0745
       },
       "bank_holiday": {
         "n_rows": 19296,
         "seasonal_naive_mae": 1.4899,
-        "lightgbm_mae": 1.1946
+        "lightgbm_mae": 1.2315
       },
       "morning_peak_7_9": {
         "n_rows": 33768,
         "seasonal_naive_mae": 1.4388,
-        "lightgbm_mae": 1.1945
+        "lightgbm_mae": 1.234
       },
       "evening_peak_17_19": {
         "n_rows": 33768,
         "seasonal_naive_mae": 2.137,
-        "lightgbm_mae": 1.8185
+        "lightgbm_mae": 1.813
       },
       "overnight_0_5": {
         "n_rows": 67536,
         "seasonal_naive_mae": 0.2673,
-        "lightgbm_mae": 0.2663
+        "lightgbm_mae": 0.261
       }
     },
     "feature_importance": {
-      "station_id": 6775,
-      "profile_avg_arrivals": 5614,
-      "lag_168h_arrivals": 2899,
-      "temperature_2m": 2824,
-      "wind_speed_10m": 2256,
-      "relative_humidity_2m": 2070,
-      "hour_of_day": 816,
-      "day_of_week": 801,
-      "is_bank_holiday": 398,
-      "precipitation": 229,
-      "is_weekend": 118,
+      "station_id": 6984,
+      "profile_avg_arrivals": 5573,
+      "lag_168h_arrivals": 2734,
+      "temperature_2m": 2643,
+      "wind_speed_10m": 2315,
+      "relative_humidity_2m": 2102,
+      "hour_of_day": 899,
+      "day_of_week": 784,
+      "is_bank_holiday": 371,
+      "precipitation": 271,
+      "is_weekend": 124,
       "rain": 0
     }
   }
